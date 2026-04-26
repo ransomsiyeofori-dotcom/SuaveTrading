@@ -1,0 +1,133 @@
+
+
+
+
+      <!doctype.html>
+   <html lang="en">
+    <head><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=add" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/intl-tel-input@23.8.0/build/css/intlTelInput.css">  
+<title>Registerpage</title>
+<link rel="stylesheet" href="register.css">
+</head>
+<body>
+  <!header section>
+  <header>
+        <img src="sauve.png" width="100px" height="50px" alt="myself">
+      
+      
+<input type="text" class="search" /> 
+  <span class="material-icons" id="search-icon">search</span> 
+       
+ <span id="menu" class="material-icons"> menu</span>
+    
+  </header>
+
+<! Navigation Section >
+
+<nav id="nav">
+
+    <h2> Suave Trading</h2>
+    
+  <a href="index.html"><button class="btn">
+    Home</button></a>
+     
+  <button class="btn" >
+   Dashboard</button>
+   
+    
+  <button class="btn">
+    Pricing</button>
+   
+  <button class="btn">
+    Contact</button>
+   
+  <button class="btn">
+    About</button>
+  
+<div class="login">
+ <a href="login.html"><button class="btn1">Login</button></a>
+ 
+ <button class="btn1">Sign Up</button>
+  
+</div>
+</nav>
+
+<! Main Section >
+
+<main class="main1">
+  <h1>Create An Account</h1>
+
+<form id="signupForm">
+  
+  <div class="user1">
+  <label for="fullname" class="user">Full Name</label>
+  <input type="text" placeholder="Enter full name" id="fullName" class="input">
+  <small id="nameError"></small>
+  </div>
+  
+  <div class="user1">
+  <label for="email" class="user">Email</label>
+  <input type="email" placeholder="Enter email" id="email" class="input">
+    <small id="emailError"></small>
+  </div>
+  
+  <div class="user1">
+  <label for="password">Password</label>
+  <input type="password" placeholder="password" id="password" class="input">
+  <small id="passwordError"></small>
+  </div>
+  
+  <div class="user1">
+  <label for="Date" class="user">Date of Birth</label>
+  <input type="date" placeholder="DOB"
+  class="input" id="dob">
+  <small id="dobError"></small>
+
+  </div>
+  
+  <div class="user1">
+  <label for="tel" class="user" >Phone</label>
+  <input type="tel" placeholder="phone"
+  class="input" id="phone">
+  <small id="phoneError"></small>
+ </div>
+ 
+ 
+<div class="checkbox">
+  <input type="checkbox" value="yes" id="terms">
+  <p>Agree to terms </p>
+   </div>
+ <small id="termsError"></small>
+ 
+  <button type="submit" class="btn1" id="submitBtn">
+  <span id="btnText">Create Account</span><span id="spinner" class="spinner hidden"></span>
+</button>
+  
+  <div class="already-account">
+  <p>Have an account?</p>
+  <a href="login.html"><strong>Login</strong></a>
+  </div>
+  
+</form>
+  
+  
+  
+  
+  
+  
+  
+  
+</main>
+    
+  
+  
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@23.8.0/build/js/intlTelInput.min.js"></script>
+ <script src="register.js"> </script>
+    
+</body>
+</html>
