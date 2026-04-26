@@ -69,7 +69,7 @@ nav.active { transform: translateX(0);}
 .btn1 { height: 50px;
         width: 250px;
         background: transparent;
-        font-size: 20px;
+        font-size: 15px;
         border-radius: 15px;
         border-color: cyan;
         color: white;}
