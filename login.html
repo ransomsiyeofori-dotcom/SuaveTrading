@@ -109,7 +109,7 @@ form {display: flex;
          width: 80%;
          height: 500px;
          backdrop-filter: blur(10px);
- -webkit-backdrop-filter:         blur(10px); }
+         -webkit-backdrop-filter: blur(10px);}
 
 .label1 { color: white;
           font-size: 20px;}
@@ -120,9 +120,9 @@ h1 {color: white;}
         border-style: none;
         border-radius: 10px;
         outline: none;
-        width: 80%;}
+        width: 100%;}
 
-.user:focus { border: 2px solid cyan;}
+.user:focus { border: 2px solid red;}
 
 .submit { height: 50px;
           background: transparent;
@@ -135,6 +135,24 @@ h1 {color: white;}
 .submit:hover { background: cyan;
                transition: transform 0.5s ease;
                transform: scale(1.05);}
+.checkbox-section { display: flex;
+            align-items: center;
+            gap: 5px;}
+
+strong { color: cyan;}
+
+p { color: white;}
+a { text-decoration: none;}
+
+.register { display: flex;
+           gap: 5px;
+           align-items: center;}
+.input { display: flex;
+         flex-direction: column;
+         gap:10px;
+         align-items: flex-start;
+         width: 80%;}
+
 
 
   
@@ -185,18 +203,36 @@ h1 {color: white;}
   
 </div>
 </nav>
+
 <! Main Section >
+
 <main class="form1">
  <h1>Sauve Trading</h1>
   <form>
+     <div class="input">
    <label for="user" class="label1">Email</label>
       <input type="text" class="user"
       />
+      </div>
       
+    <div class="input">
       <label for="pass" class="label1">Password</label>
 <input type="text" class="user" />
+</div>
+
+
+<div class="checkbox-section">
+<input type="checkbox" value="yes" class="checkbox">
+<p>Remember me</p>
+<a href="Forgotpassword.html"><strong>Forgot Password?</strong></a>
+</div>
  
   <button type="submit" class="submit">Login</button>
+ 
+ <div class="register">
+<p>Don't have an account? </p> 
+<a href="Register.html"><strong>Register</strong></a>
+</div>
       
     
     
